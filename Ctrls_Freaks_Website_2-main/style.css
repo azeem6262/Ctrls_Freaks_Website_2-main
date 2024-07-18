@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+.curtain {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://cdn.ferrari.com/cms/network/media/img/resize/662cc0bb2130a100213ccaa9-ferrari-12cilindri-interior-steering-wheel-desk?) no-repeat center center;
+    background-size: cover;
+    z-index: 10;
+}
+.start-button {
+    position: absolute;
+    top: 72%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-image: url(https://w7.pngwing.com/pngs/608/552/png-transparent-laptop-pro-evolution-soccer-2018-intel-core-i7-kaskus-android-start-button-shoe-central-processing-unit-start-button.png);
+    background-size: cover; /* Ensure the image covers the entire button */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    border: none;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+    transition: transform 0.2s;
+    height: 8vh;
+    width: 8vh;
+}
+       
+
+
+@media (max-width: 600px) {
+    .start-button {
+        padding: 15px;
+        font-size: 1em;
+    }
+}
+.full-screen-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Optional background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+    transition: opacity 3s ease; /* Fade transition */
+}
+.full-screen-logo img {
+    max-width: 80%; /* Adjust logo size as needed */
+    max-height: 80%;
+    opacity: 1; /* Start with full opacity */
+    transition: opacity 3s ease; /* Fade transition */
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+.nav-bar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+}
+.ferrari-logo {
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+}
+.nav-bar ul {
+    display: flex;
+    color: whitesmoke;
+    list-style-type: none;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-bar a:hover {
+    color: #B2022F;
+}
+.nav-bar ul li {
+    margin-left: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.nav-bar p{
+    color: whitesmoke;
+    margin-left: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    right: 25px;
+    font-size: 16px;
+}
+.main-one {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 10vh;
+    overflow: hidden;
+}
+.swiper-slide-main{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.main-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.main-vid {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.main-content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.main-content .main-title,
+.main-content .main-quote,
+.main-content .main-discover {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-content .main-title {
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.main-content .main-quote {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.main-content .main-discover {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.main-content .main-discover-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+.main-content .main-discover-link:hover {
+    color: #B2022F;
+}
+.main-content .right-arrow {
+    width: 20px;
+    height: 20px;
+    fill: whitesmoke;
+}
+.main-content .main-discover-link:hover .right-arrow {
+    fill: #B2022F;
+}
+.main-two, .main-three, .main-four, .main-five {
+    height: 100vh;
+    position: relative;
+    top: 10vh;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    background: #333;
+}
+.swiper-slide-one, .swiper-slide-two, .swiper-slide-three,
+.swiper-slide-four, .swiper-slide-five, .swiper-slide-six{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: whitesmoke;
+}
+.swiper-slide-one{
+    display: flex;
+    flex-direction: column;
+}
+.swiper-slide-one-up{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.swiper-slide-one-up-left, .swiper-slide-one-up-right{
+    width: 50%;
+    height: 100%;
+}
+.swiper-slide-one-down{
+    height: 50%;
+    width: 100%;
+}
+.swiper-slide-one img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.more-width{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-width img{
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+}
+.less-width{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B2022F;
+}
+.less-width p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 5px;
+    width: 80%;
+    color: white;
+}
+.swiper-pagination {
+    color: white;
+}
+.swiper-pagination-bullet {
+    background-color: black !important;
+}
+.swiper-slide-sports{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: whitesmoke;
+}
+.swiper-slide-sports-left, .swiper-slide-sports-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.swiper-slide-sports-left-up, .swiper-slide-sports-left-down, 
+.swiper-slide-sports-right-up, .swiper-slide-sports-right-down{
+    width: 100%;
+    height: 50%;
+}
+.swiper-slide-sports img{
+    width: 100%; 
+    height: 100%;
+}
+.main-six {
+    background-color: black;
+    display: flex;
+    height: 90vh;
+    position: relative;
+    top: 10vh;
+}
+.discover{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.discover .main-discover-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.discover .main-discover-link:hover {
+    color: #B2022F;
+}
+
+.discover .right-arrow {
+    width: 20px;
+    height: 20px;
+    fill: whitesmoke;
+}
+.discover .main-discover-link:hover .right-arrow {
+    fill: #B2022F;
+}
+.image-zoom {
+    transition: transform 0.3s ease;
+}
+.image-zoom:hover {
+    transform: scale(1.1);
+}
+.swiper-slide-collection {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+}
+.swiper-slide-collection-one-left, .swiper-slide-collection-two-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.swiper-slide-collection-one-left-up, .swiper-slide-collection-one-left-down,
+.swiper-slide-collection-two-right-up, .swiper-slide-collection-two-right-down {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.price-img {
+    display: flex;
+    flex-direction: column;
+    width: 42.5%;
+    height: 95%;
+    position: relative;
+}
+.price-img img {
+    width: 100%;
+    height: 100%;
+}
+.price-img p {
+    width: 100%;
+    height: 7.5%;
+}
+.collec-name {
+    padding: 1px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.collec-price {
+    padding: 1px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.swiper-slide-collection-one-right, .swiper-slide-collection-two-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide-collection-one-right img, .swiper-slide-collection-two-left img {
+    width: 80%;
+    height: 95%;
+}
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 85%;
+}
+.img-container .hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.img-container:hover .hover-img {
+    opacity: 1;
+}
+
+.img-container .original-img {
+    transition: opacity 0.3s ease;
+}
+.img-container:hover .original-img {
+    opacity: 0;
+}

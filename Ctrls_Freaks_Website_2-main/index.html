@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="curtain"></div>
+    <button class="start-button" onclick="startEngine()">
+    </button>
+    <audio id="engine-sound" src="ferrari_enzo_start.mp3"></audio>
+    <div class="full-screen-logo">
+        <img src="./images/ferrari-logo.png"  alt="Ferrari Logo">
+    </div>
+
+    <div class="nav-bar">
+        <img class="ferrari-logo" src="./images/ferrari-logo.png" alt="Ferrari Logo">
+        <ul>
+            <li><a href="#main-two">RACING</a></li>
+            <li><a href="#main-three">SPORTS CARS</a></li>
+            <li><a href="#main-four">COLLECTIONS</a></li>
+            <li><a href="#main-five">EXPERIENCES</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+        <p><a href="#">SEARCH</a></p>
+    </div>
+
+    <div class="main-one">
+        <div class="swiper-container main-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-slide-main">
+                        <img class="main-img" src="./images/racing.png">
+                        <div class="main-content">
+                            <p class="main-title">Racing</p>
+                            <p class="main-quote">Dominance in red</p>
+                            <a href="#" class="main-discover-link">
+                            <p class="main-discover">Discover</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="right-arrow">
+                            <path d="M12 2l-1.41 1.41L16.17 9H0v2h16.17l-5.58 5.59L12 18l8-8-8-8z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-main">
+                        <video class="main-vid" autoplay loop muted src="./images/sports-cars-video.mp4"></video>
+                        <div class="main-content">
+                            <p class="main-title">Sports Cars</p>
+                            <p class="main-quote">Adrenaline on wheels</p>
+                            <a href="#" class="main-discover-link">
+                            <p class="main-discover">Discover</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="right-arrow">
+                            <path d="M12 2l-1.41 1.41L16.17 9H0v2h16.17l-5.58 5.59L12 18l8-8-8-8z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-main">
+                        <img class="main-img" src="./images/collections.jpg">
+                        <div class="main-content">
+                            <p class="main-title">Collections</p>
+                            <p class="main-quote">Racing-inspired luxury</p>
+                            <a href="#" class="main-discover-link">
+                            <p class="main-discover">Discover</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="right-arrow">
+                            <path d="M12 2l-1.41 1.41L16.17 9H0v2h16.17l-5.58 5.59L12 18l8-8-8-8z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-main">
+                        <video class="main-vid" autoplay loop muted src="./images/experiences.mp4"></video>
+                        <div class="main-content">
+                            <p class="main-title">Experiences</p>
+                            <p class="main-quote">Explore Ferrari's legacy</p>
+                            <a href="#" class="main-discover-link">
+                            <p class="main-discover">Discover</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="right-arrow">
+                            <path d="M12 2l-1.41 1.41L16.17 9H0v2h16.17l-5.58 5.59L12 18l8-8-8-8z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div id="main-two" class="main-two">
+        <div class="swiper-container main-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-slide-two">
+                        <div class="more-width">
+                            <img src="./images/first-win.jpeg">
+                        </div>
+                        <div class="less-width">
+                            <p>There's a first time for everything, like the thrill of driving your first car. For Ferrari, that first was the 125 S, a symbol of passion and innovation, igniting a legacy that lives on in every model.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-three">
+                        <div class="less-width">
+                            <p>February 24, 1962: The Ferrari 250 GTO, embodying the essence of Ferrari, was presented. It went on to win the International Championship for GT Manufacturers in 1962, 1963, and 1964.</p>
+                        </div>
+                        <div class="more-width">
+                            <img src="./images/iconic-car.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-four">
+                        <div class="more-width">
+                            <img src="./images/legendary.jpeg">
+                        </div>
+                        <div class="less-width">
+                            <p>February 4-5, 1967: Three Ferraris - two 330 P4s and a 412 P - take the first three places in the 24 Hours of Daytona.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-five">
+                        <div class="less-width">
+                            <p>Perhaps the most famous team-driver pairing came alive on March 10, 1996, in Barcelona. Michael Schumacher joined Ferrari and was given a simple goal: win the world title.</p>
+                        </div>
+                        <div class="more-width">
+                            <img src="./images/michael.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-six">
+                        <div class="more-width">
+                            <img src="./images/24hr.png">
+                        </div>
+                        <div class="less-width">
+                            <p>Ferrari won back-to-back Le Mans 24 Hours on June 14-15, 2023, after an intense battle with Toyota. This victory at the Circuit de la Sarthe is one of the team's hardest fought wins.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-one">
+                        <div class="swiper-slide-one-up">
+                            <div class="swiper-slide-one-up-left">
+                                <img class="image-zoom" src="./images/leclerc.png">
+                            </div>
+                            <div class="swiper-slide-one-up-right">
+                                <img class="image-zoom" src="./images/sainz.png">
+                            </div>
+                        </div>
+                        <div class="swiper-slide-one-down">
+                            <img src="./images/f1-current.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div id="main-three" class="main-three">
+        <div class="swiper-container main-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-slide-sports">
+                        <div class="swiper-slide-sports-left">
+                            <div class="swiper-slide-sports-left-up">
+                                <img src="./images/collec-1.png">
+                            </div>
+                            <div class="swiper-slide-sports-left-down">
+                                <img src="./images/collec-2.png">
+                            </div>
+                        </div>
+                        <div class="swiper-slide-sports-right">
+                            <div class="swiper-slide-sports-right-up">
+                                <img src="./images/collec-3.png">
+                            </div>
+                            <div class="swiper-slide-sports-right-down">
+                                <img src="./images/collec-4.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-sports">
+                        <div class="swiper-slide-sports-left">
+                            <div class="swiper-slide-sports-left-up">
+                                <img src="./images/collec-1.png">
+                            </div>
+                            <div class="swiper-slide-sports-left-down">
+                                <img src="./images/collec-2.png">
+                            </div>
+                        </div>
+                        <div class="swiper-slide-sports-right">
+                            <div class="swiper-slide-sports-right-up">
+                                <img src="./images/collec-3.png">
+                            </div>
+                            <div class="swiper-slide-sports-right-down">
+                                <img src="./images/collec-4.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div id="main-four" class="main-four">
+        <div class="swiper-container main-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-slide-collection">
+                        <div class="swiper-slide-collection-one-left">
+                            <div class="swiper-slide-collection-one-left-up">
+                                <div class="price-img">
+                                    <div class="img-container">
+                                        <img src="./images/collec-1.png" class="original-img">
+                                        <img src="./images/collec-1-hover.png" class="hover-img">
+                                    </div>
+                                    <p class="collec-name">Short-sleeved shirt</p>
+                                    <p class="collec-price">$760</p>
+                                </div>
+                                <div class="price-img">
+                                    <div class="img-container">
+                                        <img src="./images/collec-2.png" class="original-img">
+                                        <img src="./images/collec-2-hover.png" class="hover-img">
+                                    </div>
+                                    <p class="collec-name">Silk trousers</p>
+                                    <p class="collec-price">$1450</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide-collection-one-left-down">
+                                <div class="price-img">
+                                    <div class="img-container">
+                                        <img src="./images/collec-3.png" class="original-img">
+                                        <img src="./images/collec-3-hover.png" class="hover-img">
+                                    </div>
+                                    <p class="collec-name">Long-sleeved shirt</p>
+                                    <p class="collec-price">$630</p>
+                                </div>
+                                <div class="price-img">
+                                    <div class="img-container">
+                                        <img src="./images/collec-4.png" class="original-img">
+                                        <img src="./images/collec-4-hover.png" class="hover-img">
+                                    </div>
+                                    <p class="collec-name">Leather trainers</p>
+                                    <p class="collec-price">$890</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-collection-one-right">
+                                <img src="./images/collec-5.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-collection">
+                        <div class="swiper-slide-collection-two-left">
+                                <img src="./images/collec-6.png">
+                        </div>
+                        <div class="swiper-slide-collection-two-right">
+                            <div class="swiper-slide-collection-two-right-up">
+                                <div class="price-img">
+                                    <div class="img-container">
+                                        <img src="./images/collec-7.png" class="original-img">
+                                        <img src="./images/collec-7-hover.png" class="hover-img">
+                                    </div>
+                                    <p class="collec-name">Cotton shirt</p>
+                                    <p class="collec-price">$830</p>
+                                </div>
+                                <div class="price-img">
+                                    <div class="img-container">
+                                        <img src="./images/collec-8.png" class="original-img">
+                                        <img src="./images/collec-8-hover.png" class="hover-img">
+                                    </div>
+                                    <p class="collec-name">Midi dress</p>
+                                    <p class="collec-price">$1050</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide-collection-two-right-down">
+                                <div class="price-img">
+                                    <div class="img-container">
+                                        <img src="./images/collec-9.png" class="original-img">
+                                        <img src="./images/collec-9-hover.png" class="hover-img">
+                                    </div>
+                                    <p class="collec-name">Short silk skirt</p>
+                                    <p class="collec-price">$1450</p>
+                                </div>
+                                <div class="price-img">
+                                    <div class="img-container">
+                                        <img src="./images/collec-10.png" class="original-img">
+                                        <img src="./images/collec-10-hover.png" class="hover-img">
+                                    </div>
+                                    <p class="collec-name">Slingback shoes</p>
+                                    <p class="collec-price">$1050</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div id="main-five" class="main-five">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="main-six">
+        
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
+
+
+
+
