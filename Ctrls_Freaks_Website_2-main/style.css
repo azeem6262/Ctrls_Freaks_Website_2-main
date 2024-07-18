@@ -432,3 +432,72 @@ html, body {
 .img-container:hover .original-img {
     opacity: 0;
 }
+.main-four {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide-collection {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.swiper-slide-collection-one-left,
+.swiper-slide-collection-two-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.car-info {
+    margin: 20px 0;
+}
+
+.car-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Red shadow */
+}
+
+.car-name {
+    font-size: 24px;
+    color: #f00; /* Ferrari Red */
+    margin: 10px 0;
+}
+
+.car-description {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.car-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f00; /* Ferrari Red */
+}
+
+.banner-img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5); /* Red shadow */
+}
+
+.swiper-pagination {
+    color: #fff;
+}
